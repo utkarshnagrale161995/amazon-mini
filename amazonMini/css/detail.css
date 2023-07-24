@@ -1,0 +1,25 @@
+
+.container-styles{
+	position: relative; 
+	top: 50px;
+	left:250px;
+}
+
+.tablebgcolor{
+    background-color: none;
+}
+
+.hrcolor{
+    border: 2px solid #e91e64
+}
+
+.backbtnpos{
+    width: 80px;
+}
+
+.table>:not(caption)>*>* {
+  padding:0px !important;
+}
+.img-thumbnail {
+  border: none !important;
+}

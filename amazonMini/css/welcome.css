@@ -1,0 +1,33 @@
+
+.logo-styles{
+	width: 50px; 
+	font-size: 50px; 
+	color: #ff0080
+}
+
+.title-styles{
+	text-align: center; 
+	color: #ff0080; 
+	font-size: 40px
+}
+
+.text-styles{
+	color:#337ab7;
+	font-size: 15px
+}
+
+.footertxtpos{
+    position: relative; 
+    top: 20px; 
+    left: 520px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container-styles{
+	position: relative; 
+	top: 100px;
+	
+}

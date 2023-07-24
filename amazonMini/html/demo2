@@ -1,0 +1,98 @@
+if (items.length==0){
+<trElem1>
+    <trElem1TextNode>No Products in the Cart</trElem1TextNode>
+</trElem1>
+}
+else
+{
+    <trElem1>
+       <td1>
+            <td1TextNode>item[i].productName</td1TextNode>
+       </td1> 
+       
+       <td2>
+        <input id="quantity"+i min="1" max="4" type="number" value="item[i].quantity" oninput="quantity">
+          input.myParam=td4.id
+          input.price=item[i].price
+          input.pid=item[i].productId
+       </input>
+    </td2>
+
+    <td3>
+        <td3TextNode>item[1].price</td3TextNode>
+    </td3>
+
+    <td4 id="tdprice+i">
+        <td4TextNode>item[i].totalPrice</td4TextNode>
+
+    </td4>
+
+    
+    <td5>
+        <anchorElem onclick="remove"> 
+            anchorElem.myParam=item[i].productId
+            <span class="fa fa-trash delete" title="Delete"></span>
+        
+        </anchorElem>
+    </td5>
+
+    </trElem1>
+
+    <trElem2 class="noborderbottom">
+         <tdElem6></tdElem6>
+         <tdElem7></tdElem7>
+      <thElem>
+         <thTextNode>Total</thTextNode>
+      </thElem>
+      <tdElem8>
+          <strongElem id="total">grandTotal</strongElem>
+      </tdElem8>
+    </trElem2>
+
+    if(item.length>0){
+        <trElem3  class="noBorder">
+               <tdElem9>
+                       <buttonElem1 class="btn btn-primary" type=button onclick=onBack>
+                            <spanElem1 class="fa fa-shopping-cart"></spanElem1>
+                            <spanElem2>
+                                  <spanElem2Text>Continue Shopping</spanElem2Text>
+                            </spanElem2>
+                        </buttonElem1>
+               </tdElem9>
+
+               <tdElem10>
+                         <buttonElem2 class="btn btn-primary" type=button onclick=checkout>
+                               <spanElem3><spanElemTextNode>Checkout<spanElemTextNode></spanElem3>
+                              <spanElem4 class="fa fa-play"> </spanElem4>
+                        </buttonElem2>
+               </tdElem10>
+
+       </trElem3>
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

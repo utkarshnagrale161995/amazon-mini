@@ -1,0 +1,58 @@
+<tableElem>
+    <trElem>
+        <tdElem1 class="center">
+            <imgElem class="img-thumbnail" src="product[0].imageUrl"></imgElem>
+        </tdElem1>
+    
+        <tdElem2>
+            <divElem1 class="txtsize txtcolor">
+                <divElemTextNode>product[0].productName</divElemTextNode>
+            </divElem1>
+        
+            <divElem2>
+                <divElem2TextNode>
+                   "by"+product[0].manufacturer
+                </divElem2TextNode>
+           </divElem2>
+           
+            <divElem7[1]> <divElem7TextNode>'\u2605'</divElem7TextNode>   </divElem7[1]>
+            <divElem7[2]> <divElem7TextNode>'\u2605'</divElem7TextNode>   </divElem7[2]>
+            <divElem7[3]> <divElem7TextNode>'\u2605'</divElem7TextNode>   </divElem7[3]>
+            <divElem7[4]> <divElem7TextNode>'\u2605'</divElem7TextNode>   </divElem7[4]>
+            <divElem7[5]> <divElem7TextNode>'\u2605'</divElem7TextNode>   </divElem7[5]>
+        
+            <hrElem class="hrcolor"></hrElem>
+        
+            <divElem3>
+                <divElem3TextNode>'Price: ' +product[0].price</divElem3TextNode>
+            </divElem3>
+        
+            <divElem4>
+                <divElemTextNode>'Description: '+product[0].description</divElemTextNode>
+            </divElem4>
+        
+        </tdElem2>
+
+        <tdElem3></tdElem3>
+
+    </trElem>
+    
+</tableElem>
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+

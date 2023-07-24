@@ -1,0 +1,20 @@
+
+
+.tableheadercolor{
+    color: blue;
+}
+
+
+.mbr {
+    margin-bottom: 0px; margin-right: 0px
+  }
+
+  .noborder {
+    border: 0px solid transparent !important;
+  }
+  .noborderbottom {
+    border-bottom: 0px solid transparent !important;
+  }
+  .delete {
+    color: red;
+  }

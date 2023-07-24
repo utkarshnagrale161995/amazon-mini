@@ -1,0 +1,22 @@
+.center{
+    text-align:center;
+}
+.bg-darkblue {
+    background-color:#337ab7;
+  }
+  .pd-10 {
+    padding:10px;
+   
+  }
+  .border-blue {
+    border: 1px solid #337ab7 !important;
+  }
+
+  .filled {
+    color: #ffc107;
+	font-size:22px;
+  }
+  .unfilled {
+		color: #a9a9a9;
+		font-size: 22px;
+  }
