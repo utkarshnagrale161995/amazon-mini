@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Amazon mini-Login</title>
+      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="../css/main.css" />
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="../js/index.js" ></script>
+    </head>
+    <body>
+        <div class="row container container-styles">
+            <div class="col-7">
+                <div class="card border-blue">
+                    <div class="bg-darkblue pd-10 text-white card-heading ">Login</div>
+                    <div class="card-body padding">
+                        <form>
+                            <div class="row form-group">
+                                <label for="name" class="col-4 form-label" style="text-align:left">User Name</label>
+                                <div class="col-8">
+                                    <input id="username" type="text" class="form-control" required>
+                                    
+                                </div>
+                                <div id="uerror" class="text-center text-danger" role="alert">
+                                   
+                                  </div>
+                            </div><br/>
+                            <div class="row form-group">
+                                <label for="password" class="col-4 control-label" style="text-align:left">Password</label>
+                                <div class="col-8">
+                                    <input id="password" type="password" class="form-control" name="password" required>
+                                   
+                                </div>
+                                <div id="perror" class="text-center text-danger" role="alert">
+                                   
+                                </div>
+                            </div>
+        
+                            <div id="error" class="text-center text-danger" role="alert">
+                                   
+                            </div>
+                            <br />
+        
+                            <div class="row form-group">
+                                <span class="col-5"></span>
+                                <div class="col-2">
+                                    <button onclick="onSubmit(event)" class="btn btn-primary">Login</button>
+                                </div>
+                                <span class="col-1">
+                                    <button class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Cancel" onclick="cancel()">Cancel</button>
+                                    </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

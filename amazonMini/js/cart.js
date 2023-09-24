@@ -183,7 +183,7 @@ function cart() {
 }
 
 function logout() {
-    window.location.replace('login.html')
+    window.location.replace('index.html')
 }
 function checkout() {
     window.location.replace('checkout.html')
