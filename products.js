@@ -40,8 +40,8 @@ async function loadProducts(typeValue) {
     }  
     else if(typeValue=='mobile') {
         var response = await fetch("https://amazon-minidata.onrender.com/mobiles");
-        if (response.ok) { // if HTTP-status is 200-299
-            // get the response body 
+        if (response.ok) { 
+            
             let products = await response.json();
             gproducts = products
             displayProducts(gproducts)
