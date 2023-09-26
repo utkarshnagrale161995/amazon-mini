@@ -13,6 +13,7 @@ async function loadDetail() {
     let product;
     tablets = await fetch("../assets/tablets.json");
     if (tablets.ok) { 
+        console.log("i am in if")
         tablets = await tablets.json();
     }
     else {
@@ -20,6 +21,7 @@ async function loadDetail() {
     }
     mobiles = await fetch("../assets/mobiles.json");
     if (mobiles.ok) { 
+        console.log("i am in if")
         mobiles = await mobiles.json();
     }
     else {

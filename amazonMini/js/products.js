@@ -24,7 +24,7 @@ async function loadProducts(typeValue) {
  document.getElementById('noOfItems').innerText=cartItems
     console.log(typeValue)
     if(typeValue=='first' || typeValue=='tablet') {
-        var response = await fetch("http://localhost:3002/tablets");
+        var response = await fetch("https://amazon-minidata.onrender.com/tablets");
         if (response.ok) { // if HTTP-status is 200-299
             // get the response body 
             let products = await response.json();
@@ -39,7 +39,7 @@ async function loadProducts(typeValue) {
           
     }  
     else if(typeValue=='mobile') {
-        var response = await fetch("http://localhost:3002/mobiles");
+        var response = await fetch("https://amazon-minidata.onrender.com/mobiles");
         if (response.ok) { // if HTTP-status is 200-299
             // get the response body 
             let products = await response.json();
