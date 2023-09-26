@@ -11,7 +11,7 @@ async function loadDetail() {
     let mobiles = [];
     let products = [];
     let product;
-    tablets = await fetch("../assets/tablets.json");
+    tablets = await fetch("https://amazon-minidata.onrender.com/tablets");
     if (tablets.ok) { 
         console.log("i am in if")
         tablets = await tablets.json();
@@ -19,7 +19,7 @@ async function loadDetail() {
     else {
         console.log("HTTP-Error: " + tablets.status);
     }
-    mobiles = await fetch("../assets/mobiles.json");
+    mobiles = await fetch("https://amazon-minidata.onrender.com/mobiles");
     if (mobiles.ok) { 
         console.log("i am in if")
         mobiles = await mobiles.json();
